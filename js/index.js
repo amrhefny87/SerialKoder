@@ -16,7 +16,13 @@ boton.addEventListener("click", () =>{
     console.log(listaNombres)
     if(listaNombres.length == 0){
         alert("Felicitaciones, te los has cargado a todos")
+        location.reload()
     }
     
 })
 
+let reinicio = document.getElementById("reiniciar")
+
+reinicio.addEventListener("click", () =>{
+    location.reload()
+})
