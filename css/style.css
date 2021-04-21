@@ -1,8 +1,21 @@
 .contenedor{
-    height: 20vh;
- 
+    height: 20vh; 
 }
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.listasNombres{
+    display: flex;
+    justify-content: space-around;
 
+}
+.lista{
+    width: 40%;
+    height: 50vh;
+    border: solid black 1px;
+}
 .imagen-bus{
     
     animation-name: matar;
