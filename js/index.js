@@ -2,14 +2,27 @@ import {listaNombres, purgatorio} from "./data.js"
 
 let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
+let siguiente = document.getElementById("siguiente")
+
 pintarListaVivos()
 
 boton.addEventListener("click", () =>{
     
     main()
+
+})
+siguiente.addEventListener("click", () =>{
+    siguienteKill()
+
+})
+
+reinicio.addEventListener("click", () =>{
+    location.reload()
 })
 
 function main(){
+    gritar()
+    agregarClases()
     pintarListaVivos()
     let coderKilled = killCode()
     addPurgatorio(coderKilled)
@@ -28,7 +41,7 @@ function killCode(){
         }
         
     }
-   
+    boton.style.display="none"
     return(aleatorio)
     
 }
@@ -44,6 +57,7 @@ function gameOver(){
     }
     if(listaNombres.length == 0){
         boton.style.display = "none"
+        siguiente.style.display = "none"
     }
 }
 
@@ -56,7 +70,6 @@ function pintarListaVivos(){
     
     document.getElementById("lista").innerHTML = pantalla
 }
- 
 
 function pintarListaPurgatorio(){
     let pantallaPurgatorio = ''
@@ -67,7 +80,24 @@ function pintarListaPurgatorio(){
     document.getElementById("purgatorio").innerHTML = pantallaPurgatorio
 }
 
+function gritar(){
+    let grito = document.getElementById("audio-grito")
+    grito.play()
+}
 
-reinicio.addEventListener("click", () =>{
-    location.reload()
-})
+function agregarClases(){
+    let bus = document.getElementById("bus")
+    let hombre = document.getElementById("hombre")
+    bus.classList.add("imagen-bus-animation")
+    hombre.classList.add("hombre")
+
+}
+
+function siguienteKill(){
+    let bus = document.getElementById("bus")
+    let hombre = document.getElementById("hombre")
+    bus.classList.remove("imagen-bus-animation")
+    hombre.classList.remove("hombre")
+    boton.style.display="block"
+
+}
