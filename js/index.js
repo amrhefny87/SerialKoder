@@ -2,16 +2,18 @@ import {listaNombres, purgatorio} from "./data.js"
 
 let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
+pintarListaVivos()
 
 boton.addEventListener("click", () =>{
     main()
 })
 
 function main(){
-    let pantalla = pintarListaVivos()
-    render(pantalla)
+    pintarListaVivos()
     let coderKilled = killCode()
     addPurgatorio(coderKilled)
+    pintarListaPurgatorio()
+    pintarListaVivos()
     gameOver()
     console.log(purgatorio)
     console.log(listaNombres)
@@ -38,11 +40,10 @@ function gameOver(){
     if(listaNombres.length == 0){
         alert("Felicitaciones, eres un Serial Koders")
     }
+    if(listaNombres.length == 0){
+        boton.style.display = "none"
+    }
 }
-
-reinicio.addEventListener("click", () =>{
-    location.reload()
-})
 
 
 function pintarListaVivos(){
@@ -50,11 +51,21 @@ function pintarListaVivos(){
     listaNombres.forEach(item =>{
         pantalla += `<li>${item.nombre}</li>`
     })
-    return (pantalla)
     
-}
-
-
-function render(pantalla) {
     document.getElementById("lista").innerHTML = pantalla
 }
+ 
+
+function pintarListaPurgatorio(){
+    let pantallaPurgatorio = ''
+    purgatorio.forEach(item =>{
+        pantallaPurgatorio += `<li>${item.nombre}</li>`
+    })
+    
+    document.getElementById("purgatorio").innerHTML = pantallaPurgatorio
+}
+
+
+reinicio.addEventListener("click", () =>{
+    location.reload()
+})
