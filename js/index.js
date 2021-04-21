@@ -1,17 +1,16 @@
 import {listaNombres, purgatorio} from "./data.js"
 
 let boton = document.getElementById("aleatorio")
+let reinicio = document.getElementById("reiniciar")
 
 boton.addEventListener("click", () =>{
-gameOver()
-killCode()
 
-   
+let coderKilled = killCode()
+addPurgatorio(coderKilled)
+gameOver()
     console.log(purgatorio)
     console.log(listaNombres)
 })
-
-
 
 function killCode(){
     let aleatorio = listaNombres[Math.floor(Math.random() * listaNombres.length)]
@@ -21,23 +20,21 @@ function killCode(){
         }
     }
     console.log(aleatorio)
+    return(aleatorio)
+    
 }
 
 function addPurgatorio(aleatorio){
     purgatorio.push(aleatorio)
-   console.log(aleatorio)
+    console.log(aleatorio)
 }
-
-
-let reinicio = document.getElementById("reiniciar")
 
 function gameOver(){
     if(listaNombres.length == 0){
         alert("Felicitaciones, te los has cargado a todos")
-        location.reload()
     }
 }
 
-    reinicio.addEventListener("click", () =>{
+reinicio.addEventListener("click", () =>{
     location.reload()
 })
