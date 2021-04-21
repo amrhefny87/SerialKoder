@@ -21,3 +21,5 @@ export const listaNombres = [
         nombre: "Alexandra Galarza"
     }
 ]
+
+export const purgatorio = []
