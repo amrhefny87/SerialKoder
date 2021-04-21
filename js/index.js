@@ -4,13 +4,18 @@ let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
 
 boton.addEventListener("click", () =>{
+    main()
+})
 
-let coderKilled = killCode()
-addPurgatorio(coderKilled)
-gameOver()
+function main(){
+    let pantalla = pintarListaVivos()
+    render(pantalla)
+    let coderKilled = killCode()
+    addPurgatorio(coderKilled)
+    gameOver()
     console.log(purgatorio)
     console.log(listaNombres)
-})
+} 
 
 function killCode(){
     let aleatorio = listaNombres[Math.floor(Math.random() * listaNombres.length)]
@@ -25,16 +30,31 @@ function killCode(){
 }
 
 function addPurgatorio(aleatorio){
-    purgatorio.push(aleatorio)
+    purgatorio.unshift(aleatorio)
     console.log(aleatorio)
 }
 
 function gameOver(){
     if(listaNombres.length == 0){
-        alert("Felicitaciones, te los has cargado a todos")
+        alert("Felicitaciones, eres un Serial Koders")
     }
 }
 
 reinicio.addEventListener("click", () =>{
     location.reload()
 })
+
+
+function pintarListaVivos(){
+    let pantalla = ''
+    listaNombres.forEach(item =>{
+        pantalla += `<li>${item.nombre}</li>`
+    })
+    return (pantalla)
+    
+}
+
+
+function render(pantalla) {
+    document.getElementById("lista").innerHTML = pantalla
+}
