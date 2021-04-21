@@ -9,7 +9,7 @@
 .listasNombres{
     display: flex;
     justify-content: space-around;
-    margin-top: 500px;
+    margin-top: 50px;
 
 }
 .lista{

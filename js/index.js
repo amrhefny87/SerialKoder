@@ -5,6 +5,7 @@ let reinicio = document.getElementById("reiniciar")
 pintarListaVivos()
 
 boton.addEventListener("click", () =>{
+    
     main()
 })
 
@@ -27,6 +28,7 @@ function killCode(){
         }
         
     }
+   
     return(aleatorio)
     
 }
