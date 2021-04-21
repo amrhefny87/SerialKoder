@@ -8,6 +8,8 @@ boton.addEventListener("click", () =>{
 })
 
 function main(){
+    let pantalla = pintarListaVivos()
+    render(pantalla)
     let coderKilled = killCode()
     addPurgatorio(coderKilled)
     gameOver()
@@ -34,7 +36,7 @@ function addPurgatorio(aleatorio){
 
 function gameOver(){
     if(listaNombres.length == 0){
-        alert("Felicitaciones, eres un Serial Coders")
+        alert("Felicitaciones, eres un Serial Koders")
     }
 }
 
@@ -42,3 +44,17 @@ reinicio.addEventListener("click", () =>{
     location.reload()
 })
 
+
+function pintarListaVivos(){
+    let pantalla = ''
+    listaNombres.forEach(item =>{
+        pantalla += `<li>${item.nombre}</li>`
+    })
+    return (pantalla)
+    
+}
+
+
+function render(pantalla) {
+    document.getElementById("lista").innerHTML = pantalla
+}
