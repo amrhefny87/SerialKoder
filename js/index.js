@@ -4,13 +4,16 @@ let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
 
 boton.addEventListener("click", () =>{
+    main()
+})
 
-let coderKilled = killCode()
-addPurgatorio(coderKilled)
-gameOver()
+function main(){
+    let coderKilled = killCode()
+    addPurgatorio(coderKilled)
+    gameOver()
     console.log(purgatorio)
     console.log(listaNombres)
-})
+} 
 
 function killCode(){
     let aleatorio = listaNombres[Math.floor(Math.random() * listaNombres.length)]
@@ -25,7 +28,7 @@ function killCode(){
 }
 
 function addPurgatorio(aleatorio){
-    purgatorio.push(aleatorio)
+    purgatorio.unshift(aleatorio)
     console.log(aleatorio)
 }
 
@@ -38,3 +41,4 @@ function gameOver(){
 reinicio.addEventListener("click", () =>{
     location.reload()
 })
+
