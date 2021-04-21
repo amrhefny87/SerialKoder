@@ -18,8 +18,8 @@ function killCode(){
         if (listaNombres[index] === aleatorio) {
             listaNombres.splice(index, 1)  
         }
+        
     }
-    console.log(aleatorio)
     return(aleatorio)
     
 }
