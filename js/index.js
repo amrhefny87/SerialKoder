@@ -6,7 +6,7 @@ boton.addEventListener("click", () =>{
 gameOver()
 killCode()
 
-   
+    
     console.log(purgatorio)
     console.log(listaNombres)
 })
