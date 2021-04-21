@@ -34,7 +34,7 @@ function addPurgatorio(aleatorio){
 
 function gameOver(){
     if(listaNombres.length == 0){
-        alert("Felicitaciones, te los has cargado a todos")
+        alert("Felicitaciones, eres un Serial Coders")
     }
 }
 
