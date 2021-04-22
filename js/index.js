@@ -3,9 +3,14 @@ import {listaNombres, purgatorio} from "./data.js"
 let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
 let siguiente = document.getElementById("siguiente")
+let botonStartKilling = document.getElementById("startGame")
 
 
 pintarListaVivos()
+
+botonStartKilling.addEventListener("click", () =>{
+    mainGame()
+})
 
 boton.addEventListener("click", () =>{
     
@@ -21,6 +26,8 @@ reinicio.addEventListener("click", () =>{
     location.reload()
 })
 
+
+
 function main(){
     
     setTimeout(gritoMuerte, 800) 
@@ -30,7 +37,7 @@ function main(){
     addPurgatorio(coderKilled)
     setTimeout(pintarListaPurgatorio, 1300) 
     pintarListaVivos()
-    gameOver()
+    setTimeout(gameOver, 2000)
     console.log(purgatorio)
     console.log(listaNombres)
 } 
@@ -55,7 +62,7 @@ function addPurgatorio(aleatorio){
 
 function gameOver(){
     if(listaNombres.length == 0){
-        alert("Felicitaciones, eres un Serial Koders")
+        alert("Felicitaciones, eres un Serial Koder")
     }
     if(listaNombres.length == 0){
         boton.style.display = "none"
@@ -107,3 +114,16 @@ function siguienteKill(){
     boton.style.display="block"
 
 }
+
+function mainGame() {
+    let mainLanding = document.getElementById("mainLanding")
+    let mainGame = document.getElementById("mainGame")
+    if (mainGame.style.display=="none"){
+        mainGame.style.display="block"
+    }
+    if(mainLanding.style.display=="flex"){
+    mainLanding.style.display="none"
+    }
+}
+
+
