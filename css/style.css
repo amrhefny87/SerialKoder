@@ -41,7 +41,7 @@
 .hombre-caminando{
     width: 40%;
     margin-bottom: 8px;
-    margin-left: 160px;
+    margin-left: 170px;
     z-index: -1;
 
 }
@@ -57,7 +57,7 @@
 }
 
 @keyframes matar{
-   from{transform : translate(365px,0);
+   from{transform : translate(375px,0);
 } 
 }
 @keyframes morir{
