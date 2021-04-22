@@ -18,21 +18,22 @@
     border: solid black 1px;
 }
 
+.boton-siguiente{
+    margin-top: 30px;
+    
+}
+
 .imagen-bus{
+    margin-left:  -170px;
     width: 45%;
     margin-top: 10px;
 }
 
-.boton-siguiente{
-margin-top: 30px;
-
-}
 
 .imagen-bus-animation{
-    
     animation-name: matar;
     animation-delay: 0.2s;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-direction: reverse;
     animation-fill-mode: forwards; 
 }
@@ -40,13 +41,14 @@ margin-top: 30px;
 .hombre-caminando{
     width: 40%;
     margin-bottom: 8px;
+    margin-left: 150px;
     z-index: -1;
 
 }
 .hombre{
     animation-name: morir;
     animation-delay: 0s;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-direction: reverse;
     position: relative;
     margin-bottom: 18px;
@@ -55,9 +57,9 @@ margin-top: 30px;
 }
 
 @keyframes matar{
-   from{transform : translate(185px,0);
+   from{transform : translate(355px,0);
 } 
 }
 @keyframes morir{
-    from{transform : translate(77px,0);} 
+    from{transform : translate(95px,0);} 
  }

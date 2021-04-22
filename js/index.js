@@ -4,6 +4,7 @@ let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
 let siguiente = document.getElementById("siguiente")
 
+
 pintarListaVivos()
 
 boton.addEventListener("click", () =>{
@@ -21,12 +22,13 @@ reinicio.addEventListener("click", () =>{
 })
 
 function main(){
-    gritar()
+    
+    setTimeout(gritoMuerte, 800) 
     agregarClases()
     pintarListaVivos()
     let coderKilled = killCode()
     addPurgatorio(coderKilled)
-    pintarListaPurgatorio()
+    setTimeout(pintarListaPurgatorio, 1300) 
     pintarListaVivos()
     gameOver()
     console.log(purgatorio)
@@ -78,12 +80,16 @@ function pintarListaPurgatorio(){
     })
     
     document.getElementById("purgatorio").innerHTML = pantallaPurgatorio
+    console.log()
 }
 
-function gritar(){
-    let grito = document.getElementById("audio-grito")
-    grito.play()
+function gritoMuerte(){
+    let gritoMuerte = document.getElementById("audio-grito-muerte")
+    gritoMuerte.play()
+
 }
+
+
 
 function agregarClases(){
     let bus = document.getElementById("bus")
