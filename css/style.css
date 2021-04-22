@@ -9,42 +9,57 @@
 .listasNombres{
     display: flex;
     justify-content: space-around;
-    margin-top: 500px;
+    margin-top: 20px;
 
 }
 .lista{
     width: 40%;
-    height: 70vh;
+    height: 60vh;
     border: solid black 1px;
 }
+
+.boton-siguiente{
+    margin-top: 30px;
+    
+}
+
 .imagen-bus{
-    
-    animation-name: matar;
+    margin-left:  -170px;
     width: 45%;
-    animation-delay: 0.3s;
-    animation-duration: 3s;
-    animation-direction: reverse;
-    animation-fill-mode: forwards;
     margin-top: 10px;
-    
+}
+
+
+.imagen-bus-animation{
+    animation-name: matar;
+    animation-delay: 0.2s;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards; 
 }
 
 .hombre-caminando{
     width: 40%;
-    margin-top: -30px;
+    margin-bottom: 8px;
+    margin-left: 170px;
+    z-index: -1;
+
+}
+.hombre{
     animation-name: morir;
     animation-delay: 0s;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-direction: reverse;
     position: relative;
     margin-bottom: 18px;
     animation-fill-mode: forwards;
-    z-index: -1;
+    
 }
 
 @keyframes matar{
-   from{transform : translate(185px,0);} 
+   from{transform : translate(375px,0);
+} 
 }
 @keyframes morir{
-    from{transform : translate(77px,0);} 
+    from{transform : translate(95px,0);} 
  }
