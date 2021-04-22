@@ -30,7 +30,7 @@ function main(){
     addPurgatorio(coderKilled)
     setTimeout(pintarListaPurgatorio, 1300) 
     pintarListaVivos()
-    gameOver()
+    setTimeout(gameOver, 2000)
     console.log(purgatorio)
     console.log(listaNombres)
 } 
