@@ -6,18 +6,71 @@ export const listaNombres = [
         nombre: "Andrea Cevallos"
     },
     {
-        nombre: "Jose Miguel"
+        nombre: "Jose Miguel Quesada"
     },
     {
-        nombre: "Amr"
+        nombre: "Amr Hefny"
     },
     {
-        nombre: "Jael"
+        nombre: "Jael Masllorens"
     },
     {
-        nombre: "Sergio corcuera"
+        nombre: "Sergio Corcuera"
     },
     {
         nombre: "Alexandra Galarza"
+    },
+    {
+        nombre: "David Sánchez"
+    },
+    {
+        nombre: "Diego Córdoba"
+    },
+    {
+        nombre: "Sergi Virgili"
+    },
+    {
+        nombre: "Abdulha Idress"
+    },
+    {
+        nombre: "Anya Kholodenko"
+    },
+    {
+        nombre: "Armando Mago"
+    },
+    {
+        nombre: "Leah Calafell"
+    },
+    {
+        nombre: "Thierno Sadialiou"
+    },
+    {
+        nombre: "Berta López"
+    },
+    {
+        nombre: "Gabriela Baquerizo"
+    },
+    {
+        nombre: "Nweke Solomon"
+    },
+    {
+        nombre: "Cris Mouta"
+    },
+    {
+        nombre: "Snezhana Stefanova"
+    },
+    {
+        nombre: "Andrea Suárez"
+    },
+    {
+        nombre: "Martín Madridejos"
+    },
+    {
+        nombre: "Gabriela Piñeiro"
+    },
+    {
+        nombre: "Joan Recordà"
     }
 ]
+
+export const purgatorio = []
