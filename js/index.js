@@ -40,7 +40,7 @@ function main(){
     pintarListaVivos()
     setTimeout(gameOver, 2000)
     setTimeout(splashBlood, 1200)
-    setTimeout(quitarSplashBlood, 1500)
+    setTimeout(quitarSplashBlood, 4000)
     console.log(purgatorio)
     console.log(listaNombres)
 } 
