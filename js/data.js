@@ -8,7 +8,7 @@ export const listaNombres = [
     {
         nombre: "Jose Miguel Quesada"
     },
-    /*{
+    {
         nombre: "Amr Hefny"
     },
     {
@@ -22,12 +22,6 @@ export const listaNombres = [
     },
     {
         nombre: "David Sánchez"
-    },
-    {
-        nombre: "Diego Córdoba"
-    },
-    {
-        nombre: "Sergi Virgili"
     },
     {
         nombre: "Abdulha Idress"
@@ -70,7 +64,16 @@ export const listaNombres = [
     },
     {
         nombre: "Joan Recordà"
-    }*/
+    },
+    {
+        nombre: "David Hermoso"
+    },
+    {
+        nombre: "Diego Gonzales"
+    },
+    {
+        nombre: "Franco Calviño"
+    }
 ]
 
 export const purgatorio = []

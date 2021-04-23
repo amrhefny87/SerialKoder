@@ -4,6 +4,7 @@ let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
 let siguiente = document.getElementById("siguiente")
 let botonStartKilling = document.getElementById("startGame")
+let splash = document.getElementById("splash")
 
 
 pintarListaVivos()
@@ -38,6 +39,8 @@ function main(){
     setTimeout(pintarListaPurgatorio, 1300) 
     pintarListaVivos()
     setTimeout(gameOver, 2000)
+    setTimeout(splashBlood, 1200)
+    setTimeout(quitarSplashBlood, 4000)
     console.log(purgatorio)
     console.log(listaNombres)
 } 
@@ -112,6 +115,7 @@ function siguienteKill(){
     bus.classList.remove("imagen-bus-animation")
     hombre.classList.remove("hombre")
     boton.style.display="block"
+    siguiente.style.zIndex = "2"
 
 }
 
@@ -127,3 +131,14 @@ function mainGame() {
 }
 
 
+function splashBlood(){
+    if(splash.style.display == "none"){
+        splash.style.display = "block"
+    }
+}
+
+function quitarSplashBlood(){
+    if(splash.style.display == "block"){
+        splash.style.display = "none"
+    }
+}
