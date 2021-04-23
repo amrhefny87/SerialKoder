@@ -16,6 +16,8 @@
 
 <main id="mainGame" style="display:none;">
 <section class="contenedor">
+    <img class="splash" id="splash" src="./img/splash.png" alt="splash" style="display: none;">
+
 <section class="botones">
     <button id="aleatorio" style="display: block;">ASESINAR</button>
     <button id="reiniciar">REINICIAR</button>
@@ -24,8 +26,9 @@
     <img id="bus" class="imagen-bus" src="./img/bus.png">
     <img id="hombre" class="hombre-caminando" src="./img/hombre-caminando.gif">
     <audio id="audio-grito-muerte" src="./audio/grito1.mp3"></audio>
+    <p id="personaAsesinada"></p>
 </section>
-<button id="siguiente" class="boton-siguiente" style="display: block;">ASESINAR AL SIGUIENTE</button>
+<button id="siguiente" class="boton-siguiente" style="display: block; z-index: 1;">ASESINAR AL SIGUIENTE</button>
 <section class="listasNombres">
     <ul class="lista" id="lista">
     </ul>
