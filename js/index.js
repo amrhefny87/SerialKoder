@@ -67,7 +67,7 @@ function pintarListaVivos(){
 
 
 function killCode(){
-    let aleatorio = listaNombres[Math.floor(Math.random() * listaNombres.length)]
+    let aleatorio = listaNombres[Math.floor(Math.random() *  listaNombres.length)]
     for (let index = 0; index < listaNombres.length; index++) {
         if (listaNombres[index] === aleatorio) {
             listaNombres.splice(index, 1)  

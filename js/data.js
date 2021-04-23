@@ -74,6 +74,8 @@ export const listaNombres = [
     {
         nombre: "Franco Calviño"
     }
-]
+
+] 
+
 
 export const purgatorio = []
