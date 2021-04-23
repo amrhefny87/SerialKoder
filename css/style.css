@@ -30,14 +30,6 @@
 }
 
 
-.imagen-bus-animation{
-    animation-name: matar;
-    animation-delay: 0.2s;
-    animation-duration: 1s;
-    animation-direction: reverse;
-    animation-fill-mode: forwards; 
-}
-
 .hombre-caminando{
     width: 40%;
     margin-bottom: 8px;
@@ -45,16 +37,7 @@
     z-index: -1;
 
 }
-.hombre{
-    animation-name: morir;
-    animation-delay: 0s;
-    animation-duration: 1s;
-    animation-direction: reverse;
-    position: relative;
-    margin-bottom: 18px;
-    animation-fill-mode: forwards;
-    
-}
+
 
 .bus-landing{
     width: 80%;
@@ -70,16 +53,10 @@
 }
 
 .main-landing{
+    position: relative;
     display:flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
-
-@keyframes matar{
-   from{transform : translate(375px,0);
-} 
-}
-@keyframes morir{
-    from{transform : translate(95px,0);} 
- }
