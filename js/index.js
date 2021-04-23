@@ -36,14 +36,35 @@ function main(){
     pintarListaVivos()
     let coderKilled = killCode()
     addPurgatorio(coderKilled)
-    setTimeout(pintarListaPurgatorio, 1300) 
+    setTimeout(pintarListaPurgatorio, 3000) 
     pintarListaVivos()
     setTimeout(gameOver, 2000)
     setTimeout(splashBlood, 1200)
-    setTimeout(quitarSplashBlood, 4000)
+    setTimeout(quitarSplashBlood, 2500)
     console.log(purgatorio)
     console.log(listaNombres)
 } 
+
+function mainGame() {
+    let mainLanding = document.getElementById("mainLanding")
+    let mainGame = document.getElementById("mainGame")
+    if (mainGame.style.display=="none"){
+        mainGame.style.display="block"
+    }
+    if(mainLanding.style.display=="flex"){
+    mainLanding.style.display="none"
+    }
+}
+
+function pintarListaVivos(){
+    let pantalla = ''
+    listaNombres.forEach(item =>{
+        pantalla += `<li>${item.nombre}</li>`
+    })
+    
+    document.getElementById("lista").innerHTML = pantalla
+}
+
 
 function killCode(){
     let aleatorio = listaNombres[Math.floor(Math.random() * listaNombres.length)]
@@ -63,26 +84,6 @@ function addPurgatorio(aleatorio){
     console.log(aleatorio)
 }
 
-function gameOver(){
-    if(listaNombres.length == 0){
-        alert("Felicitaciones, eres un Serial Koder")
-    }
-    if(listaNombres.length == 0){
-        boton.style.display = "none"
-        siguiente.style.display = "none"
-    }
-}
-
-
-function pintarListaVivos(){
-    let pantalla = ''
-    listaNombres.forEach(item =>{
-        pantalla += `<li>${item.nombre}</li>`
-    })
-    
-    document.getElementById("lista").innerHTML = pantalla
-}
-
 function pintarListaPurgatorio(){
     let pantallaPurgatorio = ''
     purgatorio.forEach(item =>{
@@ -99,7 +100,27 @@ function gritoMuerte(){
 
 }
 
+function siguienteKill(){
+    let bus = document.getElementById("bus")
+    let hombre = document.getElementById("hombre")
+    bus.classList.remove("imagen-bus-animation")
+    hombre.classList.remove("hombre")
+    boton.style.display="block"
+    siguiente.style.zIndex = "2"
+    splash.classList.remove("splash-salida")
+    splash.style.display="none"
 
+}
+
+function gameOver(){
+    if(listaNombres.length == 0){
+        alert("Felicitaciones, eres un Serial Koder")
+    }
+    if(listaNombres.length == 0){
+        boton.style.display = "none"
+        siguiente.style.display = "none"
+    }
+}
 
 function agregarClases(){
     let bus = document.getElementById("bus")
@@ -109,28 +130,6 @@ function agregarClases(){
 
 }
 
-function siguienteKill(){
-    let bus = document.getElementById("bus")
-    let hombre = document.getElementById("hombre")
-    bus.classList.remove("imagen-bus-animation")
-    hombre.classList.remove("hombre")
-    boton.style.display="block"
-    siguiente.style.zIndex = "2"
-
-}
-
-function mainGame() {
-    let mainLanding = document.getElementById("mainLanding")
-    let mainGame = document.getElementById("mainGame")
-    if (mainGame.style.display=="none"){
-        mainGame.style.display="block"
-    }
-    if(mainLanding.style.display=="flex"){
-    mainLanding.style.display="none"
-    }
-}
-
-
 function splashBlood(){
     if(splash.style.display == "none"){
         splash.style.display = "block"
@@ -138,7 +137,5 @@ function splashBlood(){
 }
 
 function quitarSplashBlood(){
-    if(splash.style.display == "block"){
-        splash.style.display = "none"
-    }
+splash.classList.add("splash-salida")
 }
