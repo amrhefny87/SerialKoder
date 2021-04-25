@@ -176,6 +176,28 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     transform-box: fill-box;
   }
   
+  .ending-page-texto{
+    color: #fff;
+    font-size: 4.5vh;
+    font-weight: bolder;
+    margin-top: 0.2vh;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 1em;
+    animation-name: textoEnding;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-fill-mode: both;
+  }
+
+  .bus-ending {
+    margin-top: 36vh;
+    width: 5vh;
+    animation-name: busEnding;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+  }
 
   @-webkit-keyframes cabezaPop {
     0% {
@@ -284,28 +306,7 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
   }
 
-  .ending-page-texto{
-    color: #fff;
-    font-size: 4.5vh;
-    font-weight: bolder;
-    margin-top: 0.2vh;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
-    line-height: 1em;
-    animation-name: textoEnding;
-    animation-duration: 3s;
-    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
-    animation-fill-mode: both;
-  }
-
-  .bus-ending {
-    margin-top: 36vh;
-    width: 5vh;
-    animation-name: busEnding;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    animation-delay: 2s;
-  }
+  
 
 @-webkit-keyframes textoEnding {
     0% {
