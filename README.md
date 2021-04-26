@@ -17,7 +17,7 @@ https://andresestebanpatino.github.io/wheelOfDoom/
 
 ## Mockup de este proyecto 🛠️
 
-Mockup de como pensábamos que deberían ser las pantallas y sus funcionalidades:
+Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:
 
 ![Alt text](/img/README.md/Mockup_bookWorm.png?raw=true "Optional Title")
 
