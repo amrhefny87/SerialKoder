@@ -70,6 +70,7 @@ height: 20vh;
     justify-content: space-around;
     margin-top: 20px;
 }
+
 .listasNombres{
     width: 100%;
     display: flex;
@@ -77,8 +78,17 @@ height: 20vh;
     font-family: 'Press Start 2P', cursive;
     font-size: 12px;
     margin-top: 20px;
-
 }
+
+.cabeza-viva{
+    margin-top: -80px;
+    margin-bottom: 10px;
+    }
+.cabeza-muerta{
+        margin-top: -80px;
+        margin-bottom: 10px;
+}
+
 .lista-vivos{
     display: flex;
     align-items: center;
@@ -94,21 +104,12 @@ height: 20vh;
     padding-right: 0.5rem;
 }
 
-.cabeza-viva{
-margin-top: -80px;
-margin-bottom: 10px;
-}
-.cabeza-muerta{
-    margin-top: -80px;
-    margin-bottom: 10px;
-    }
-
-
 .lista-purgatorio{
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    line-height: 20px;
     background-color: #595959;
     width: 38%;
     height: 55vh;
@@ -119,7 +120,15 @@ margin-bottom: 10px;
     padding-right: 0.5rem;
 }
 
+.mancha-de-sangre{
+width: 80%;
+filter: opacity(60%);
+position: absolute;
+}
 
+.purgatorio{
+    z-index: 1;
+}
 
 .imagen-bus{
     margin-left: -50vh;
