@@ -33,9 +33,13 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 
 ## Herramientas usadas en este proyecto 🛠️
 
-* Visual Code
+* Visual Studio Code
 * Trello
 * Figma
+* Slack
+* Metologías Ágiles
+* Balsamiq
+* Planning Poker
 * GoogleDocs
 * GoogleFonts
 * Zoom
