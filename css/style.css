@@ -4,11 +4,8 @@
 
 body{
     background: linear-gradient(179.83deg, #0D0D0D 50.85%, rgba(13, 13, 13, 0) 200.02%);
-
-}
-.main-game {
-    display: flex;
-    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header-main-game{
@@ -16,7 +13,7 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 margin-top: 20px;
-height: 20vh;
+height: 6vh;
 }
 
 .imagen-bus-main-game{
@@ -61,7 +58,7 @@ height: 20vh;
 }
 
 .contenedor{
-    height: 33vh; 
+
     display: flex;
     flex-direction: column;
 }
@@ -97,7 +94,7 @@ height: 20vh;
     line-height: 20px;
     background-color: #8C8080;
     width: 38%;
-    height: 55vh;
+    height: 40vh;
     border: solid black 1px;
     padding-top: 4rem;
     padding-left: 0.5rem;
@@ -112,12 +109,13 @@ height: 20vh;
     line-height: 20px;
     background-color: #595959;
     width: 38%;
-    height: 55vh;
+    height: 40vh;
     border: solid black 1px;
     color: #EFC590;
     padding-top: 4rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    
 }
 
 .mancha-de-sangre{

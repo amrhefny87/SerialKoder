@@ -88,7 +88,7 @@ function addPurgatorio(aleatorio){
 function pintarListaPurgatorio(){
     let pantallaPurgatorio = ''
     purgatorio.forEach(item =>{
-        pantallaPurgatorio += `<li class="item-listas">${item.nombre}</li>`
+        pantallaPurgatorio += `<li>${item.nombre}</li>`
     })
     
     document.getElementById("purgatorio").innerHTML = pantallaPurgatorio
