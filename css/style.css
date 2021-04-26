@@ -1,10 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Press+Start+2P&display=swap');
+
+
 body{
-    background-color:orange;
+    background: linear-gradient(179.83deg, #0D0D0D 50.85%, rgba(13, 13, 13, 0) 200.02%);
+
 }
 .main-game {
     display: flex;
     flex-direction: column;
 }
+
+.header-main-game{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+height: 20vh;
+}
+
+.imagen-bus-main-game{
+    width: 10%;
+    margin-left: 15px;
+}
+
+.btn-kill{
+    width: 100px;
+    height: 35px;
+    margin-left: 75px;
+    border-radius: 12px;
+    color: #EFC590;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    background-color: #8C8080;
+}
+
+.btn-restart{
+    width: 100px;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 12px;
+    color: #EFC590;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    background-color: #8C8080;
+}
+
+.boton-siguiente{
+    margin-top: 30px;
+    width: 150px;
+    border-radius: 12px;
+    color: #EFC590;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    background-color: #8C8080;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
 .contenedor{
     height: 33vh; 
     display: flex;
@@ -16,22 +71,55 @@ body{
     margin-top: 20px;
 }
 .listasNombres{
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
     margin-top: 20px;
 
 }
-.lista{
-    width: 40%;
+.lista-vivos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    line-height: 20px;
+    background-color: #8C8080;
+    width: 38%;
     height: 55vh;
-    background-color: mintcream;
     border: solid black 1px;
+    padding-top: 4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
-.boton-siguiente{
-    margin-top: 30px;
-    
+.cabeza-viva{
+margin-top: -80px;
+margin-bottom: 10px;
 }
+.cabeza-muerta{
+    margin-top: -80px;
+    margin-bottom: 10px;
+    }
+
+
+.lista-purgatorio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #595959;
+    width: 38%;
+    height: 55vh;
+    border: solid black 1px;
+    color: #EFC590;
+    padding-top: 4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
 
 .imagen-bus{
     margin-left: -50vh;
@@ -39,14 +127,12 @@ body{
     margin-bottom: 2vh;
 }
 
-
 .hombre-caminando{
     display: none;
     width: 40%;
     margin-bottom: 8px;
     margin-left: 170px;
     z-index: -1;
-
 }
 
 .main-caracter {
