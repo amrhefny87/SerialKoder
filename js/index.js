@@ -30,8 +30,9 @@ reinicio.addEventListener("click", () =>{
 
 
 function main(){
-    
-    setTimeout(gritoMuerte, 800) 
+    setTimeout(sonidoBus)
+    setTimeout(gritoMuerte) 
+    setTimeout(choque, 1600)
     agregarClases()
     pintarListaVivos()
     let coderKilled = killCode()
@@ -67,7 +68,7 @@ function pintarListaVivos(){
 
 
 function killCode(){
-    let aleatorio = listaNombres[Math.floor(Math.random() * listaNombres.length)]
+    let aleatorio = listaNombres[Math.floor(Math.random() *  listaNombres.length)]
     for (let index = 0; index < listaNombres.length; index++) {
         if (listaNombres[index] === aleatorio) {
             listaNombres.splice(index, 1)  
@@ -94,9 +95,23 @@ function pintarListaPurgatorio(){
     console.log()
 }
 
+function sonidoBus(){
+    let gritoMuerte = document.getElementById("audio-bus-motor")
+    gritoMuerte.play()
+
+}
+
 function gritoMuerte(){
     let gritoMuerte = document.getElementById("audio-grito-muerte")
     gritoMuerte.play()
+
+}
+
+function choque(){
+    let choque = document.getElementById("audio-choque")
+    let desmembrado = document.getElementById("audio-choque-desmembrado")
+    choque.play()
+    desmembrado.play()
 
 }
 
