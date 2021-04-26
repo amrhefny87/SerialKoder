@@ -40,6 +40,13 @@ Mockup de como pensabamos que deberian ser las pantallas y sus funcionalidades.
 
 
 
+## Licencias Utilizadas 🛠️
+
+* xxxxxx
+* yyyyyy
+* zzzzzz
+
+
 ## Autores ✒️
 
 * **Andrea**
