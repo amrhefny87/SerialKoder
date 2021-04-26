@@ -4,6 +4,8 @@ Debemos diseñar y maquetar una Wheel of Doom.
 
 La tematica es libre. Ser creativos.
 
+El producto debe ser responsive.
+
 
 
 ## Comenzando 🚀
