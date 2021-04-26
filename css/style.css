@@ -1,5 +1,14 @@
+body{
+    background-color:orange;
+}
+.main-game {
+    display: flex;
+    flex-direction: column;
+}
 .contenedor{
-    height: 20vh; 
+    height: 33vh; 
+    display: flex;
+    flex-direction: column;
 }
 .botones{
     display: flex;
@@ -14,7 +23,8 @@
 }
 .lista{
     width: 40%;
-    height: 60vh;
+    height: 55vh;
+    background-color: mintcream;
     border: solid black 1px;
 }
 
@@ -24,13 +34,14 @@
 }
 
 .imagen-bus{
-    margin-left:  -170px;
-    width: 45%;
-    margin-top: 10px;
+    margin-left: -50vh;
+    width: 90%;
+    margin-bottom: 2vh;
 }
 
 
 .hombre-caminando{
+    display: none;
     width: 40%;
     margin-bottom: 8px;
     margin-left: 170px;
@@ -38,25 +49,41 @@
 
 }
 
-
-.bus-landing{
-    width: 80%;
+.main-caracter {
+    width: 100%;
     height: auto;
-    margin-top: 50px;
-}
+    margin-left: 7vh;
+    z-index: -1;
+  }
+
+
+
 
 .start-game-btn{
-    width: 100px;
-    height:40px;
-    border-radius: 3%;
-    margin-top: 50px;
+    width: 16vh;
+    height:6vh;
+    border-radius: 2vh;
+    margin-top: 10vh;
 }
 
 .main-landing{
+    height: 100vh;
     position: relative;
     display:flex;
     flex-direction: column;
     align-items: center;
     
 }
+
+.ending-page{
+    height: 100vh;
+    width: 100vh;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+
+
+
 
