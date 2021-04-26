@@ -2,7 +2,7 @@
 
 Debemos diseñar y maquetar una Wheel of Doom.
 
-La tematica es libre. Ser creativos.
+La temática es libre. Ser creativos.
 
 El producto debe ser responsive.
 
@@ -10,20 +10,20 @@ El producto debe ser responsive.
 
 ## Comenzando 🚀
 
-Donde encontrar el git Page. 
+Dónde encontrar el git Page: 
 
 https://andresestebanpatino.github.io/wheelOfDoom/
 
 
 ## Mockup de este proyecto 🛠️
 
-Mockup de como pensabamos que deberian ser las pantallas y sus funcionalidades.
+Mockup de como pensábamos que deberían ser las pantallas y sus funcionalidades:
 
 ![Alt text](/img/README.md/Mockup_bookWorm.png?raw=true "Optional Title")
 
 
 
-## Capturas Pantallas formato Movil ⚙️
+## Capturas Pantallas formato Móvil ⚙️
 
 ![Alt text](/img/README.md/landingPage.JPG?raw=true "Optional Title")
 ![Alt text](/img/README.md/catalogo.JPG?raw=true "Optional Title")
@@ -57,5 +57,5 @@ Mockup de como pensabamos que deberian ser las pantallas y sus funcionalidades.
 * **Amr - Scrum Master**
 * **Jose Miguel**
 
-También pueden mirar la lista de todos los [contribuyentes](https://github.com/AndresEstebanPatino/bookWorms/contributors) quíenes han participado en este proyecto. 
+También pueden mirar la lista de todos los [contribuyentes](https://github.com/AndresEstebanPatino/bookWorms/contributors) quienes han participado en este proyecto. 
 
