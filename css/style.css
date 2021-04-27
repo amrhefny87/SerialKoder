@@ -1,5 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.main-game {
+    display: flex;
+    flex-direction: column;
 
 
 body{
@@ -55,6 +60,7 @@ height: 6vh;
     margin-top: 0;
     margin-bottom: 10px;
     
+
 }
 
 .contenedor{
@@ -158,13 +164,60 @@ position: absolute;
     
 }
 
+.main-ending{
+    background: linear-gradient(179.83deg, #0D0D0D 0.12%, rgba(13, 13, 13, 0) 238.79%);
+}
 .ending-page{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vh;
     justify-items: center;
     text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    z-index: 1;
+    
     
 }
+
+.felicitaciones {
+    margin-top: 10vh;
+}
+
+
+
+.nuestra-lista-nombres {
+    text-align: right;
+    margin-right: 1vh;
+}
+
+.nuestra-lista-descripciones {
+    text-align: left;
+    margin-left: 1vh;
+}
+
+.katchup{
+    margin-top: 5vh;
+}
+
+.heinz {
+    width: 40vh;
+}
+
+.heiz-texto {
+    margin-top: 3vh;
+    font-size: xx-large;
+}
+
+.sangre-atras{
+    position: absolute;
+    width: 45vh;
+    height: 50vh;
+    z-index: 0;
+    margin-top: 30vh;
+}
+
 
 
 .carretera{

@@ -184,19 +184,21 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
     line-height: 1em;
     animation-name: textoEnding;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
     animation-fill-mode: both;
   }
 
   .bus-ending {
-    margin-top: 36vh;
-    width: 5vh;
+    margin-top: 10vh;
+    width: 15vh;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 1em;
     animation-name: busEnding;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-fill-mode: both;
-    animation-delay: 2s;
+    animation-delay: 1s;
   }
 
   @-webkit-keyframes cabezaPop {
@@ -318,10 +320,18 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         display: block;
         opacity: 0;
     }
+    50% {
+      display: block;
+        opacity: 1;
+    }
+    99% {
+      display: block;
+        opacity: 1;
+    }
 
     100%{
         display: block;
-        opacity: 1;
+        opacity: 0;
     }
 
 }
@@ -331,5 +341,79 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   to { transform: translateX(130vh);}
 }
 
+.ending-nombres-descripcion{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10vh;
+  font-size: xx-large;
+  animation-name: nombresDescripcionEnding;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes nombresDescripcionEnding {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  50% {
+    display: block;
+    opacity: 1;
+  }
+
+  99% {
+    display: block;
+    opacity: 1;
+  }
+
+  100% {
+      display: block;
+      opacity: 0;
+  }
+
+}
+
+.katchup {
+  animation-name: katchupEnding;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+  animation-fill-mode: both;
+  animation-delay: 3s;
+}
+
+@-webkit-keyframes katchupEnding {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  25% {
+    display: block;
+    opacity: 1;
+  }
+
+  99% {
+    display: block;
+    opacity: 1;
+  }
+
+  100% {
+      display: block;
+      opacity: 0;
+  }
 
   
