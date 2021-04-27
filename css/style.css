@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
+
+
 .main-game {
     display: flex;
     flex-direction: column;
@@ -153,6 +155,20 @@ position: absolute;
     z-index: -1;
 }
 
+.main-ending{
+    background: linear-gradient(179.83deg, #0D0D0D 0.12%, rgba(13, 13, 13, 0) 238.79%);
+}
+
+
+
+
+.start-game-btn{
+    width: 16vh;
+    height:6vh;
+    border-radius: 2vh;
+    margin-top: 10vh;
+}
+
 
 .main-landing{
     height: 100vh;
@@ -177,8 +193,6 @@ position: absolute;
     color: white;
     font-family: 'Amatic SC', cursive;
     z-index: 1;
-    
-    
 }
 
 .felicitaciones {
@@ -220,6 +234,68 @@ position: absolute;
 
 
 
+/*class endingPage5*/
+
+
+
+.section-endingpage-5 {
+    display : flex;
+    flex-direction : column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color : #BF8C4D;
+    
+}
+
+.title-endingPage-5 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-style: normal;
+    text-decoration: underline wavy;
+}
+
+.article-solo-endingpage-5 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 10px;
+        
+}
+
+.paragraf-endingPage-5 {
+    font-size: 25px;}
+
+.button-start-killing-again {
+    width: 150px;
+    margin-top: 7px;
+    font-family: 'Press Start 2P', cursive;
+    
+
+    width: 158px;
+    height: 63px;
+    left: calc(50% - 158px/2 + 0.5px);
+    top: calc(50% - 63px/2 + 194.5px);
+
+    background: #BF8C4D;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 26px;
+
+}
+
+.main-endinPage-5 {
+    align-content: center;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
 .carretera{
     position: absolute;
     height: 100vh;
@@ -261,4 +337,3 @@ position: absolute;
     margin-top: 85vh;
     margin-right: 30vh;
 }
-
