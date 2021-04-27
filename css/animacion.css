@@ -184,7 +184,7 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
     line-height: 1em;
     animation-name: textoEnding;
-    animation-duration: 6s;
+    animation-duration: 8s;
     animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
     animation-fill-mode: both;
   }
@@ -348,7 +348,7 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   margin-top: 10vh;
   font-size: xx-large;
   animation-name: nombresDescripcionEnding;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
   animation-fill-mode: both;
   animation-delay: 2s;
@@ -384,7 +384,7 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
 .katchup {
   animation-name: katchupEnding;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
   animation-fill-mode: both;
   animation-delay: 3s;
@@ -415,5 +415,4 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
       display: block;
       opacity: 0;
   }
-
-  
+}

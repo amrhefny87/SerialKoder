@@ -5,7 +5,7 @@
 .main-game {
     display: flex;
     flex-direction: column;
-
+}
 
 body{
     background: linear-gradient(179.83deg, #0D0D0D 50.85%, rgba(13, 13, 13, 0) 200.02%);
@@ -74,7 +74,7 @@ height: 6vh;
     margin-top: 20px;
 }
 
-.listasNombres{
+.listas-nombres{
     width: 100%;
     display: flex;
     justify-content: space-around;
