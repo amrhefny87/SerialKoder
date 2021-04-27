@@ -2,6 +2,7 @@ import {listaNombres, purgatorio} from "./data.js"
 
 let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
+let reinicioFinal = document.getElementById("reiniciarFinal")
 let siguiente = document.getElementById("siguiente")
 let botonStartKilling = document.getElementById("startGame")
 let splash = document.getElementById("splash")
@@ -24,6 +25,10 @@ siguiente.addEventListener("click", () =>{
 })
 
 reinicio.addEventListener("click", () =>{
+    location.reload()
+})
+
+reinicioFinal.addEventListener("click", () =>{
     location.reload()
 })
 
