@@ -80,9 +80,9 @@ height: 6vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
-    margin-top: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    margin-top: 10px;
 }
 
 .cabeza-viva{
@@ -99,13 +99,14 @@ height: 6vh;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    line-height: 20px;
+    line-height: 30px;
     background-color: #8C8080;
     width: 38%;
     border: solid black 1px;
     padding-top: 4rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    padding-bottom: 1em;
 }
 
 .lista-purgatorio{
@@ -113,7 +114,7 @@ height: 6vh;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    line-height: 20px;
+    line-height: 30px;
     background-color: #595959;
     width: 38%;
     border: solid black 1px;
@@ -121,6 +122,7 @@ height: 6vh;
     padding-top: 4rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    padding-bottom: 1em;
     
 }
 
@@ -156,17 +158,10 @@ position: absolute;
 }
 
 .main-ending{
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(179.83deg, #0D0D0D 0.12%, rgba(13, 13, 13, 0) 238.79%);
-}
-
-
-
-
-.start-game-btn{
-    width: 16vh;
-    height:6vh;
-    border-radius: 2vh;
-    margin-top: 10vh;
+    width: 100%;
 }
 
 
@@ -184,10 +179,10 @@ position: absolute;
     background: linear-gradient(179.83deg, #0D0D0D 0.12%, rgba(13, 13, 13, 0) 238.79%);
 }
 .ending-page{
-    display: none;
+    display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     justify-items: center;
     text-align: center;
     color: white;
@@ -232,12 +227,6 @@ position: absolute;
     margin-top: 30vh;
 }
 
-
-
-/*class endingPage5*/
-
-
-
 .section-endingpage-5 {
     display : flex;
     flex-direction : column;
@@ -258,37 +247,7 @@ position: absolute;
     text-decoration: underline wavy;
 }
 
-.article-solo-endingpage-5 {
-    font-size: 30px;
-    font-weight: bolder;
-    margin-top: 30px;
-    margin-bottom: 10px;
-        
-}
-
-.paragraf-endingPage-5 {
-    font-size: 25px;}
-
-.button-start-killing-again {
-    width: 150px;
-    margin-top: 7px;
-    font-family: 'Press Start 2P', cursive;
-    
-
-    width: 158px;
-    height: 63px;
-    left: calc(50% - 158px/2 + 0.5px);
-    top: calc(50% - 63px/2 + 194.5px);
-
-    background: #BF8C4D;
-    mix-blend-mode: normal;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 26px;
-
-}
-
-.main-endinPage-5 {
+.main-endingPage-5 {
     align-content: center;
     display : flex;
     flex-direction: column;
@@ -328,10 +287,13 @@ position: absolute;
     background: #262626;
     border: 1px solid #000000;
     border-radius: 26px;
-    font-size: 17px;
+    font-size: 30px;
     line-height: 21px;
     text-align: center;
     color: #EFC590;
+    font-family: 'Amatic SC', cursive;
+    
+
 }
 
 .pegi-info{

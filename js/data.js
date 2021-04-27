@@ -5,7 +5,7 @@ export const listaNombres = [
     {
         nombre: "Andrea Cevallos"
     }
-    /*,
+    ,
 
     {
         nombre: "Jose Miguel Quesada"
@@ -16,7 +16,7 @@ export const listaNombres = [
     ,
     {
         nombre: "Jael Masllorens"
-    },
+    }/*,
     {
         nombre: "Sergio Corcuera"
     },
