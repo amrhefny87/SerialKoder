@@ -63,6 +63,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     
 }
 
@@ -89,7 +90,7 @@ body{
 
 .bloodTransparent{
     position: absolute;
-    width: 59vh;
+    width: 57vh;
     height: 52vh;
     left: -6vh;
     top: 36vh;
