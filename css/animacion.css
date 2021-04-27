@@ -16,21 +16,6 @@
     animation-fill-mode: forwards; 
 }
 
-
-
-.hombre{
-    animation-name: morir;
-    animation-delay: 0s;
-    animation-duration: 1s;
-    animation-direction: reverse;
-    position: relative;
-    margin-bottom: 18px;
-    animation-fill-mode: forwards;
-    
-}
-
-
-
 .splash{
     position: absolute;
     width: 150%;

@@ -142,13 +142,7 @@ position: absolute;
     margin-bottom: 2vh;
 }
 
-.hombre-caminando{
-    display: none;
-    width: 40%;
-    margin-bottom: 8px;
-    margin-left: 170px;
-    z-index: -1;
-}
+
 
 .main-caracter {
     width: 100%;
