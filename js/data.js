@@ -11,7 +11,7 @@ export const listaNombres = [
     {
         nombre: "Amr Hefny"
     }
-    /*,
+    ,
     {
         nombre: "Jael Masllorens"
     },
@@ -70,11 +70,11 @@ export const listaNombres = [
         nombre: "David Hermoso"
     },
     {
-        nombre: "Diego Gonzales"
+        nombre: "Diego González"
     },
     {
         nombre: "Franco Calviño"
-    }*/
+    }
 ]
 
 export const purgatorio = []
