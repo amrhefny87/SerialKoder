@@ -4,17 +4,19 @@ export const listaNombres = [
     },
     {
         nombre: "Andrea Cevallos"
-    },
+    }
+    ,
+
     {
         nombre: "Jose Miguel Quesada"
     },
     {
         nombre: "Amr Hefny"
     }
-    /*,
+    ,
     {
         nombre: "Jael Masllorens"
-    },
+    }/*,
     {
         nombre: "Sergio Corcuera"
     },
@@ -70,7 +72,7 @@ export const listaNombres = [
         nombre: "David Hermoso"
     },
     {
-        nombre: "Diego Gonzales"
+        nombre: "Diego González"
     },
     {
         nombre: "Franco Calviño"

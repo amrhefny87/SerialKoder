@@ -2,14 +2,20 @@ import {listaNombres, purgatorio} from "./data.js"
 
 let boton = document.getElementById("aleatorio")
 let reinicio = document.getElementById("reiniciar")
+let reinicioFinal = document.getElementById("reiniciarFinal")
 let siguiente = document.getElementById("siguiente")
 let botonStartKilling = document.getElementById("startGame")
 let splash = document.getElementById("splash")
+let endingPage = document.getElementById("endingPage")
+let endingPage2 = document.getElementById("endingPage2")
+let horrorAudio = document.getElementById("horrorAudio")
+let horrorIntro = document.getElementById("horrorIntro")
 
 
 pintarListaVivos()
 
 botonStartKilling.addEventListener("click", () =>{
+    horrorIntro.play();
     mainGame()
 })
 
@@ -27,6 +33,10 @@ reinicio.addEventListener("click", () =>{
     location.reload()
 })
 
+reinicioFinal.addEventListener("click", () =>{
+    location.reload()
+})
+
 
 
 function main(){
@@ -39,11 +49,10 @@ function main(){
     addPurgatorio(coderKilled)
     setTimeout(pintarListaPurgatorio, 3000) 
     pintarListaVivos()
-    setTimeout(gameOver, 2000)
+    setTimeout(gameOver, 3000)
     setTimeout(splashBlood, 1600)
     setTimeout(quitarSplashBlood, 3600)
-    console.log(purgatorio)
-    console.log(listaNombres)
+    
 } 
 
 function mainGame() {
@@ -82,7 +91,6 @@ function killCode(){
 
 function addPurgatorio(aleatorio){
     purgatorio.unshift(aleatorio)
-    console.log(aleatorio)
 }
 
 function pintarListaPurgatorio(){
@@ -92,7 +100,6 @@ function pintarListaPurgatorio(){
     })
     
     document.getElementById("purgatorio").innerHTML = pantallaPurgatorio
-    console.log()
 }
 
 function sonidoBus(){
@@ -157,6 +164,8 @@ function gameOver(){
     if(listaNombres.length == 0){
         boton.style.display = "none"
         siguiente.style.display = "none"
+        setTimeout(cambiarEndingPage, 8000)
+        setTimeout(horrorAudio.play(),2000)
     }
 
 }
@@ -190,4 +199,13 @@ function splashBlood(){
 
 function quitarSplashBlood(){
 splash.classList.add("splash-salida")
+}
+
+function cambiarEndingPage (){
+    if(endingPage.style.display == "flex"){
+    endingPage.style.display = "none"}
+
+    if(endingPage2.style.display == "none"){
+    endingPage2.style.display = "flex"
+    }
 }
