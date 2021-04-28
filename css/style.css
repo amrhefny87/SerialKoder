@@ -123,7 +123,6 @@ height: 6vh;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 1em;
-    
 }
 
 .mancha-de-sangre{
@@ -296,6 +295,10 @@ position: absolute;
     margin-right: 30vh;
 }
 
+.animacion-choque {
+
+}
+
 @media (min-device-width: 800px) {
 
     .main-landing{
@@ -357,17 +360,13 @@ position: absolute;
     }
 
     
-    /*.main-game {
-        display: flex;
-        flex-direction: column;
-        height: 50%;
-}*/
+    
 
-.header-main-game{
+    .header-main-game{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 24px;
     height: 15vh;
     }
 
@@ -407,5 +406,53 @@ position: absolute;
         z-index: 1;
         position: absolute;
     }
+
+    .animacion-choque {
+        width: 69%;
+    margin-left: 520px;
+        
+    }
+
+    .imagen-bus{
+        width: 104%;
+    margin-bottom: 6px;
+    z-index: 1;
+
+    margin-left: -1300px;
+        
+    }
+
+    .main-caracter {
+        width: 75%;
+    height: auto;
+    margin-left: 500px;
+    z-index: -1;
+
+    }
+
+    .splash{
+        position: absolute;
+        width: 150%;
+        margin-left: -500px;
+        margin-top: -500px;
+        z-index: 1;
+    
+    -webkit-animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    
+    
+    }
+
+    .imagen-bus-animation{
+        animation-name: matarResponsive;
+        animation-delay: 1s;
+        animation-duration: 2s;
+        animation-direction: reverse;
+        animation-fill-mode: both; 
+    }
+
+    
+
+    
 
 }
