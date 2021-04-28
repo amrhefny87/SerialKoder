@@ -123,7 +123,6 @@ height: 6vh;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 1em;
-    
 }
 
 .mancha-de-sangre{
@@ -158,15 +157,6 @@ position: absolute;
     width: 100%;
 }
 
-
-.main-landing{
-    height: 100vh;
-    position: relative;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;  
-}
 
 .main-ending{
     background: linear-gradient(179.83deg, #0D0D0D 0.12%, rgba(13, 13, 13, 0) 238.79%);
@@ -250,6 +240,17 @@ position: absolute;
     z-index: 1;
     height: 100vh;
 }
+
+.main-landing{
+    height: 100vh;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+
 .carretera{
     position: absolute;
     height: 100vh;
@@ -276,7 +277,7 @@ position: absolute;
     position: absolute;
     width: 135px;
     height: 56px;
-    left: calc(50% - 135px/2 + 8px);
+    left: 37%;
     margin-top: 185%;
     background: #262626;
     border: 1px solid #000000;
@@ -286,14 +287,16 @@ position: absolute;
     text-align: center;
     color: #EFC590;
     font-family: 'Amatic SC', cursive;
-    
-
 }
 
 .pegi-info{
     width: 7vh;
     margin-top: 85vh;
     margin-right: 30vh;
+}
+
+.animacion-choque {
+
 }
 
 @media (min-device-width: 800px) {
@@ -306,20 +309,20 @@ position: absolute;
         align-items: center;
         overflow: hidden;
         width: 70%;
-        margin-left: 150px !important;
+        margin-left: 0px !important;
     }
     .bus-landing{
         margin-top: 0px !important;
         position: absolute;
         transform: rotate(-14.63deg);
         width: 65% !important;
-       
+        
     }   
     .carretera{
         position: absolute;
         height: 120vh;
         z-index: -1;
-        width: 100%;
+        width: 102%;
         margin-left: 0px !important;
         
     }
@@ -336,20 +339,18 @@ position: absolute;
     .start-game-btn{
         position: absolute;
         z-index: 1;
-        width: 135px;
-        height: 56px;
-        margin-top: 93%; 
-        margin-left: 200px !important;
-        background: #262626;
+        width: 148px;
+        height: 65px;
+        margin-top: 34%;
+        margin-left: 420px !important;
+        background: #EFC590;
         border: 1px solid #000000;
         border-radius: 26px;
-        font-size: 30px;
+        font-size: 34px;
         line-height: 21px;
         text-align: center;
-        color: #EFC590;
+        color: #262626;
         font-family: 'Amatic SC', cursive;
-        
-    
     }
     
     .pegi-info{
@@ -357,5 +358,101 @@ position: absolute;
         margin-top: 85vh;
         margin-right: 575px;
     }
+
+    
+    
+
+    .header-main-game{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    height: 15vh;
+    }
+
+    .btn-kill{
+        width: 100px;
+        height: 35px;
+        margin-left: 75px;
+        border-radius: 12px;
+        color: #EFC590;
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        background-color: #8C8080;
+    }
+    .btn-restart{
+        width: 100px;
+        height: 35px;
+        margin-right: 25px;
+        border-radius: 12px;
+        color: #EFC590;
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        background-color: #8C8080;
+    }
+
+    .imagen-bus-main-game{
+        width: 8%;
+        margin-left: 25px;
+    }
+
+    .listas-nombres{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Amatic SC', cursive;
+        font-size: 24px;
+        margin-top: 195px;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .animacion-choque {
+        width: 69%;
+    margin-left: 520px;
+        
+    }
+
+    .imagen-bus{
+        width: 104%;
+    margin-bottom: 6px;
+    z-index: 1;
+
+    margin-left: -1300px;
+        
+    }
+
+    .main-caracter {
+        width: 75%;
+    height: auto;
+    margin-left: 500px;
+    z-index: -1;
+
+    }
+
+    .splash{
+        position: absolute;
+        width: 150%;
+        margin-left: -500px;
+        margin-top: -500px;
+        z-index: 1;
+    
+    -webkit-animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    
+    
+    }
+
+    .imagen-bus-animation{
+        animation-name: matarResponsive;
+        animation-delay: 1s;
+        animation-duration: 2s;
+        animation-direction: reverse;
+        animation-fill-mode: both; 
+    }
+
+    
+
+    
 
 }

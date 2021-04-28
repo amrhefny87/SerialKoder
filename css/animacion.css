@@ -38,6 +38,9 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
    from{transform : translate(1200px,0);
 } 
 }
+
+
+
 @keyframes morir{
     from{transform : translate(95px,0);} 
  }
@@ -481,5 +484,11 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 
+@media (min-device-width: 800px) {
 
+  @keyframes matar{ 
+  from{transform : translate(-50px,0);}
+  to {transform : translate(600px,0);}
+  }
 
+}
