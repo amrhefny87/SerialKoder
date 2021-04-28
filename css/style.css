@@ -359,4 +359,56 @@ position: absolute;
         margin-right: 575px;
     }
 
+    
+    /*.main-game {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+}*/
+
+.header-main-game{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    height: 15vh;
+    }
+
+    .btn-kill{
+        width: 100px;
+        height: 35px;
+        margin-left: 75px;
+        border-radius: 12px;
+        color: #EFC590;
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        background-color: #8C8080;
+    }
+    .btn-restart{
+        width: 100px;
+        height: 35px;
+        margin-right: 25px;
+        border-radius: 12px;
+        color: #EFC590;
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        background-color: #8C8080;
+    }
+
+    .imagen-bus-main-game{
+        width: 8%;
+        margin-left: 25px;
+    }
+
+    .listas-nombres{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Amatic SC', cursive;
+        font-size: 24px;
+        margin-top: 195px;
+        z-index: 1;
+        position: absolute;
+    }
+
 }
