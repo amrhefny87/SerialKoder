@@ -159,16 +159,6 @@ position: absolute;
 }
 
 
-.main-landing{
-    height: 100vh;
-    position: relative;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    
-}
-
 .main-ending{
     background: linear-gradient(179.83deg, #0D0D0D 0.12%, rgba(13, 13, 13, 0) 238.79%);
 }
@@ -251,6 +241,17 @@ position: absolute;
     z-index: 1;
     height: 100vh;
 }
+
+.main-landing{
+    height: 100vh;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+
 .carretera{
     position: absolute;
     height: 100vh;
@@ -277,7 +278,7 @@ position: absolute;
     position: absolute;
     width: 135px;
     height: 56px;
-    left: calc(50% - 135px/2 + 8px);
+    left: 37%;
     margin-top: 185%;
     background: #262626;
     border: 1px solid #000000;
@@ -287,8 +288,6 @@ position: absolute;
     text-align: center;
     color: #EFC590;
     font-family: 'Amatic SC', cursive;
-    
-
 }
 
 .pegi-info{
@@ -307,20 +306,20 @@ position: absolute;
         align-items: center;
         overflow: hidden;
         width: 70%;
-        margin-left: 150px !important;
+        margin-left: 0px !important;
     }
     .bus-landing{
         margin-top: 0px !important;
         position: absolute;
         transform: rotate(-14.63deg);
         width: 65% !important;
-       
+        
     }   
     .carretera{
         position: absolute;
         height: 120vh;
         z-index: -1;
-        width: 100%;
+        width: 102%;
         margin-left: 0px !important;
         
     }
@@ -337,20 +336,18 @@ position: absolute;
     .start-game-btn{
         position: absolute;
         z-index: 1;
-        width: 135px;
-        height: 56px;
-        margin-top: 93%; 
-        margin-left: 200px !important;
-        background: #262626;
+        width: 148px;
+        height: 65px;
+        margin-top: 34%;
+        margin-left: 420px !important;
+        background: #EFC590;
         border: 1px solid #000000;
         border-radius: 26px;
-        font-size: 30px;
+        font-size: 34px;
         line-height: 21px;
         text-align: center;
-        color: #EFC590;
+        color: #262626;
         font-family: 'Amatic SC', cursive;
-        
-    
     }
     
     .pegi-info{
