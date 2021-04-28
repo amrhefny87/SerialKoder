@@ -483,3 +483,31 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
 
 
+@media (min-device-width: 800px){
+
+  .bus-ending {
+    margin-top: 10vh;
+    width: 25vh;
+    margin-left: -750px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 1em;
+    animation-name: busEnding;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+  }
+  
+  .ending-nombres-descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: xx-large;
+    animation-name: nombresDescripcionEnding;
+    animation-duration: 6s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-fill-mode: both;
+    animation-delay: 2s;
+  }
+}
