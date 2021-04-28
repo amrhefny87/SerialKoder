@@ -261,6 +261,7 @@ position: absolute;
     position: absolute;
     transform: rotate(-14.63deg);
     top: 5vh;
+    width: 100%;
 }
 
 .bloodTransparent{
@@ -294,4 +295,68 @@ position: absolute;
     width: 7vh;
     margin-top: 85vh;
     margin-right: 30vh;
+}
+
+@media (min-device-width: 800px) {
+
+    .main-landing{
+        height: 100vh;
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        width: 70%;
+        margin-left: 150px !important;
+    }
+    .bus-landing{
+        margin-top: 0px !important;
+        position: absolute;
+        transform: rotate(-14.63deg);
+        width: 65% !important;
+       
+    }   
+    .carretera{
+        position: absolute;
+        height: 120vh;
+        z-index: -1;
+        width: 100%;
+        margin-left: 0px !important;
+        
+    }
+    .bloodTransparent{
+        position: absolute;
+        width: 80vh;
+        height: 52vh;
+        left: 115px;
+        top: 47vh;
+        z-index: 1;
+    
+    }
+        
+    .start-game-btn{
+        position: absolute;
+        z-index: 1;
+        width: 135px;
+        height: 56px;
+        margin-top: 93%; 
+        margin-left: 200px !important;
+        background: #262626;
+        border: 1px solid #000000;
+        border-radius: 26px;
+        font-size: 30px;
+        line-height: 21px;
+        text-align: center;
+        color: #EFC590;
+        font-family: 'Amatic SC', cursive;
+        
+    
+    }
+    
+    .pegi-info{
+        width: 11%;
+        margin-top: 85vh;
+        margin-right: 575px;
+    }
+
 }
