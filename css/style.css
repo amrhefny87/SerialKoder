@@ -430,18 +430,7 @@ position: absolute;
 
     }
 
-    .splash{
-        position: absolute;
-        width: 150%;
-        margin-left: -500px;
-        margin-top: -500px;
-        z-index: 1;
-    
-    -webkit-animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    
-    
-    }
+   
 
     .imagen-bus-animation{
         animation-name: matarResponsive;

@@ -485,10 +485,152 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
 
 @media (min-device-width: 800px) {
+  .splash{
+    position: absolute;
+    width: 100%;
+    margin-left: -500px;
+    margin-top: -500px;
+    z-index: 1;
+
+  -webkit-animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+  }
 
   @keyframes matar{ 
   from{transform : translate(2000px,0);}
   
   }
 
+  .splash-salida{
+  
+    -webkit-animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+
+  .brazo-izquierdo-accion {
+    animation-name: brazoIzquierdoCorta;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin:top;
+    transform-box: fill-box;
+  }
+
+  .brazo-derecho-accion {
+    animation-name: brazoDerechoCorta;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin:top;
+    transform-box: fill-box;
+  }
+
+  .piernas-accion {
+    animation-name: piernasCorta;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin:top;
+    transform-box: fill-box;
+  }
+
+  .torso-accion {
+    animation-name: torsoCorta;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin:top;
+    transform-box: fill-box;
+  }
+
+  @-webkit-keyframes brazoIzquierdoCorta {
+    0% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    50% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: translateX(500px) translateY(-300px) rotateZ(-180deg);
+    }
+  }
+
+  @-webkit-keyframes brazoDerechoCorta {
+    0% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    50% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: translateX(200px) translateY(-500px) rotateZ(-220deg);
+    }
+  }
+
+  @-webkit-keyframes piernasCorta {
+    0% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    50% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: translateX(600px) translateY(100px) rotateZ(90deg);
+    }
+  }
+
+  @-webkit-keyframes torsoCorta {
+    0% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    50% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: translateX(600px) translateY(0px) rotateZ(90deg);
+    }
+  }
+
+  .cabeza-todo {
+    animation-name: cabezaPop;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @-webkit-keyframes cabezaPop {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0deg) translateY(0) translateX(0);
+    }
+    
+    5% {
+      
+      -webkit-transform: scale(3) rotateZ(0deg) translateY(0) translateX(0);
+    }
+    33% {
+      
+      -webkit-transform: scale(3) rotateZ(0deg) translateY(0) translateX(0);
+    }
+    40% {
+      
+      -webkit-transform: scale(1) rotateZ(0deg) translateY(0) translateX(0);
+    }
+
+    50% {
+      -webkit-transform: scale(1) rotateZ(0deg) translateY(0) translateX(0);
+    }
+
+    100% {
+      
+      -webkit-transform: translateX(500px) translateY(-300px) rotateZ(-180deg);
+    }
+  }
 }
