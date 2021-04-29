@@ -1,4 +1,6 @@
-![Alt text](/img/busLandingPageTransp.png?raw=true "Optional Title")
+<p align="center"> 
+  ![Alt text](/img/README.md/busLandingPageTranspReadMe.png?raw=true "Optional Title")
+</p>
 
 # SERIAL KODER
 
