@@ -46,11 +46,11 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 ## Capturas Pantallas formato Ipad ⚙️
 
 <p align="center"> 
-  <img src="./img/README.md/landingPageReadMeIpad.JPG?raw=true" width=35%>
-  <img src="./img/README.md/Main1ReadMeIpad.JPG?raw=true" width=35%>
-  <img src="./img/README.md/Main2ReadMeIpad.JPG?raw=true" width=35%>
-  <img src="./img/README.md/endingPage1ReadMeIpad.JPG?raw=true" width=35%>
-  <img src="./img/README.md/endingPage2ReadMeIpad.JPG?raw=true" width=35%>
+  <img src="./img/README.md/landingPageReadMeIpad.JPG?raw=true" width=50%>
+  <img src="./img/README.md/Main1ReadMeIpad.JPG?raw=true" width=50%>
+  <img src="./img/README.md/Main2ReadMeIpad.JPG?raw=true" width=50%>
+  <img src="./img/README.md/endingPage1ReadMeIpad.JPG?raw=true" width=50%>
+  <img src="./img/README.md/endingPage2ReadMeIpad.JPG?raw=true" width=50%>
 </p>
 
 
