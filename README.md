@@ -57,7 +57,7 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 * Trello
 * Figma
 * Slack
-* Metologías Ágiles
+* Metodologías Ágiles
 * Balsamiq
 * Planning Poker
 * GoogleDocs
