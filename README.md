@@ -68,5 +68,5 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 * **Amr - Scrum Master**
 * **Jose Miguel**
 
-También pueden mirar la lista de todos los [contribuyentes](https://github.com/AndresEstebanPatino/wheelOfDoom/contributors) quienes han participado en este proyecto. 
+También pueden mirar la lista de todos los [contribuyentes](https://github.com/AndresEstebanPatino/wheelOfDoom/contributors) quienes han participado en este proyecto.  
 
