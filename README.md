@@ -4,7 +4,9 @@
 
 # SERIAL KODER
 
-⚠️Esta pagina contiene escenas que pueden resultar perturbadoras para algunos espectadores.⚠️
+<p align="center"> 
+⚠️Esta página contiene escenas que pueden resultar perturbadoras para algunos espectadores.⚠️
+</p>
 
 Debemos diseñar y maquetar una Wheel of Doom.
 
@@ -25,17 +27,20 @@ https://andresestebanpatino.github.io/wheelOfDoom/
 
 Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:
 
-![Alt text](/img/README.md/mockupReadMe.png?raw=true "Optional Title")
-
+<p align="center"> 
+  <img src="./img/README.md/mockupReadMe.JPG?raw=true" width=50%>
+</p>
 
 
 ## Capturas Pantallas formato Móvil ⚙️
 
-![Alt text](/img/README.md/landingPageReadMe.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/Main1ReadMe.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/Main2ReadMe.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/endingPage1ReadMe.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/endingPage2ReadMe.JPG?raw=true "Optional Title")
+<p align="center"> 
+  <img src="./img/README.md/landingPageReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/Main1ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/Main2ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/endingPage1ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/endingPage2ReadMe.JPG?raw=true" width=25%>
+</p>
 
 
 ## Capturas Pantallas formato Ipad ⚙️
@@ -54,7 +59,7 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 * Trello
 * Figma
 * Slack
-* Metologías Ágiles
+* Metodologías Ágiles
 * Balsamiq
 * Planning Poker
 * GoogleDocs
