@@ -1,3 +1,5 @@
+![Alt text](/img/README.md/busLandingPageTransp.png?raw=true "Optional Title")
+
 # SERIAL KODER
 
 ⚠️Esta pagina contiene escenas que pueden resultar perturbadoras para algunos espectadores.⚠️
