@@ -30,6 +30,13 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 ![Alt text](/img/README.md/descripcionLibro.JPG?raw=true "Optional Title")
 
 
+## Capturas Pantallas formato Ipad ⚙️
+
+![Alt text](/img/README.md/landingPage.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/catalogo.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/descripcionLibro.JPG?raw=true "Optional Title")
+
+
 
 ## Herramientas usadas en este proyecto 🛠️
 
