@@ -4,7 +4,7 @@
 
 # SERIAL KODER
 
-⚠️Esta pagina contiene escenas que pueden resultar perturbadoras para algunos espectadores.⚠️
+⚠️Esta página contiene escenas que pueden resultar perturbadoras para algunos espectadores.⚠️
 
 Debemos diseñar y maquetar una Wheel of Doom.
 
