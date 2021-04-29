@@ -25,17 +25,20 @@ https://andresestebanpatino.github.io/wheelOfDoom/
 
 Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:
 
-![Alt text](/img/README.md/mockupReadMe.png?raw=true "Optional Title")
-
+<p align="center"> 
+  <img src="./img/README.md/mockupReadMe.JPG?raw=true" width=50%>
+</p>
 
 
 ## Capturas Pantallas formato Móvil ⚙️
 
-![Alt text](/img/README.md/landingPageReadMe.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/Main1ReadMe.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/Main2ReadMe.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/endingPage1ReadMe.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/endingPage2ReadMe.JPG?raw=true "Optional Title")
+<p align="center"> 
+  <img src="./img/README.md/landingPageReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/Main1ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/Main2ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/endingPage1ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/endingPage2ReadMe.JPG?raw=true" width=25%>
+</p>
 
 
 ## Capturas Pantallas formato Ipad ⚙️
