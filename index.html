@@ -14,26 +14,32 @@
 
 <body>
 
-<main id="mainLanding" style="display:flex" class="main-landing">
-    <audio id="horrorIntro" src="audio/HorrorIntro.mp3"></audio>
-    <img class ="carretera" src="./img/carretera.png">
-    <img class="bloodTransparent" src="./img/bloodTransparent.png">
-    <img id="busLanding" alt="imagen autobús enojado conseguido en:'https://webstockreview.net" class="bus-landing" src="./img/busLandingPageTransp.png">
-    <img class="pegi-info" src="./img/pegi-info.png">
-    <button id="startGame" class="start-game-btn">START KILLING</button>
+<main id="mainLanding" style="display:flex">
+    <section  class="main-landing">
+        <audio id="horrorIntro" src="audio/HorrorIntro.mp3"></audio>
+        <img class ="carretera" src="./img/carretera.png" alt="dibujo de una carretera con curvas con perspectiva">
+        <img class="bloodTransparent" src="./img/bloodTransparent.png" alt="salpicón de sangre con fondo transparente">
+        <img id="busLanding" alt="imagen de autobús enojado conseguido en:'https://webstockreview.net" class="bus-landing" src="./img/busLandingPageTransp.png">
+        <img class="pegi-info" src="./img/pegi-info.png" alt="etiqueta Pegi 18 de advertencia de contenido para adultos">
+    </section>
+    
+    <section class="main-start-btn">
+        <button id="startGame" class="start-game-btn">START KILLING</button>
+    </section>
+    
 </main>
 
     <main class="main-game" id="mainGame" style="display:none;">
         <section class="contenedor">
             <header class="header-main-game">
-                <img id="bus-main-game" class="imagen-bus-main-game" src="./img/busLandingPageTransp.png">
+                <img id="bus-main-game" class="imagen-bus-main-game" src="./img/busLandingPageTransp.png" alt="dibujo con perspectiva frontal de un autobús conducido por un hombre enfadado">
                 <button id="aleatorio" class="btn-kill" style="display: block;">KILL</button>
                 <button id="reiniciar" class="btn-restart">RESTART</button>
             </header>
 
             <section class="animacion-choque">
-                <img class="splash" id="splash" src="./img/splash.png" alt="splash" style="display: none;">
-                <img id="bus" class="imagen-bus" src="./img/bus2.png">
+                <img class="splash" id="splash" src="./img/splash.png" alt="blood splash" style="display: none;">
+                <img id="bus" class="imagen-bus" src="./img/bus2.png" alt="dibujo con trazos simples de un autobús amarillo de perfil">
                 <svg  id="hombre" class="main-caracter" width="563" height="402" viewBox="0 0 563 402" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <g id="personaje">
@@ -343,33 +349,31 @@
             <button id="siguiente" class="boton-siguiente" style="display: block; z-index: 1;">NEXT KILLING</button>
             <section class="listas-nombres">
                 <article class="lista-vivos">
-                    <img class="cabeza-viva" src="./img/cabeza-viva.svg">
+                    <img class="cabeza-viva" src="./img/cabeza-viva.svg" alt="dibujo de la cabeza sonriente de un hombre con gafas">
                     <ul  id="lista">
                     </ul>
                 </article>
                 <article class="lista-purgatorio">
-                    <img class="cabeza-muerta" src="./img/cabeza-muerta.svg">
-                    <img class="mancha-de-sangre" src="./img/drop-of-blood-png-6.png">
+                    <img class="cabeza-muerta" src="./img/cabeza-muerta.svg" alt="dibujo de la cabeza de un hombre con gafas con cara de muerto">
+                    <img class="mancha-de-sangre" src="./img/drop-of-blood-png-6.png" alt="mancha de un salpicón de sangre">
                     <ul  id="purgatorio">
-
-                        </ul>
-                    </article>
-
-    
-                </section>
+                    </ul>
+                </article>
             </section>
-
         </section>
     </main>
 
     <main id="mainEnding" Class="main-ending" style="display: none;">
-        <img class="sangre-atras" src="./img/Group4.png">
+        <img class="sangre-atras" src="./img/Group4.png" alt="manchas de sangre en dos salpicones">
         <audio id="horrorAudio" src="audio/HorrorEnding.mp3"></audio>
         <section id="endingPage" class="ending-page" style="display: flex;">
+            <section>
             <article class="felicitaciones">
-                <p class="ending-page-texto">Congratulations!<br>You are a serial Koder</p>
-                <img id="bus" class="bus-ending" src="./img/bus2.png">
+                <p class="ending-page-texto">Congratulations!<br>You are a Serial Koder</p>
+                <img id="bus" class="bus-ending" src="./img/bus2.png" alt="manchas de sangre en dos salpicones">
             </article>
+        </section>
+        <section>
             <article class="ending-nombres-descripcion">
                 <ul class="nuestra-lista-nombres">
                     <li>Andrés</li>
@@ -387,12 +391,15 @@
                 </ul>
             </article>
             <article class="katchup">
-                <img class="heinz" src="./img/heinz.png">
+                <img class="heinz" src="./img/heinz.png" alt="logo de la marca de ketchup Heinz">
                 <p class="heiz-texto">Special Thanks to Heinz Katchup</p>
             </article>
         </section>
+        </section>
+        
         <section id="endingPage2" class="main-endingPage-5" style="display: none;">
             <section class="section-endingpage-5">
+                <section class="columna1">
                 <article class="article-solo-ending-page">No real dolls were harmed in this work</article>
     
                 <article class="paragraf-endingPage-5">
@@ -415,15 +422,19 @@
                     <p>Jael Masllorens</p>
                     <p>Andrés Esteban</p>
                 </article>
-    
-                <article class="article-solo-endingpage-5">Any similarity between this work and the reality is intentionally requested by Sergi y Diego</article>
+            </section>
+            <article class="columna2">
+                <article class="article-solo-endingpage-5">Any similarity between this work and the reality is intentionally requested by Sergi and Diego</article>
     
                 <article class="article-solo-endingpage-5">If you haven’t had enough killings push the button below</article>
+                <button class="button-start-killing-again" id="reiniciarFinal">
+                    START KILLING “AGAIN”!!!
+                </button>
+            </article>
+
             </section>
             
-            <button class="button-start-killing-again" id="reiniciarFinal">
-                START KILLING “AGAIN”!!!
-            </button>
+
         </section>
     </main>
 
