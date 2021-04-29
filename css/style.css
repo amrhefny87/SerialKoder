@@ -279,7 +279,7 @@ position: absolute;
     width: 135px;
     height: 56px;
     left: 37%;
-    margin-top: 185%;
+    margin-top: 550px;
     background: #262626;
     border: 1px solid #000000;
     border-radius: 26px;
@@ -340,7 +340,7 @@ position: absolute;
         z-index: 1;
         width: 148px;
         height: 65px;
-        margin-top: 34%;
+        margin-top: 350px !important;
         margin-left: 420px !important;
         background: #EFC590;
         border: 1px solid #000000;
@@ -529,4 +529,23 @@ position: absolute;
 
 
 
+}
+
+@media (min-device-width: 374px){
+
+    .start-game-btn{
+        position: absolute;
+        width: 135px;
+        height: 56px;
+        left: 37%;
+        margin-top: 690px;
+        background: #262626;
+        border: 1px solid #000000;
+        border-radius: 26px;
+        font-size: 30px;
+        line-height: 21px;
+        text-align: center;
+        color: #EFC590;
+        font-family: 'Amatic SC', cursive;
+    }
 }
