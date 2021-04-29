@@ -360,7 +360,7 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
   99% {
     display: block;
-    opacity: 1;
+    opacity: 0;
   }
 
   100% {
@@ -467,7 +467,7 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
   1% {
       display: block;
-      opacity: 0;
+      opacity:0 ;
   }
 
   25% {
@@ -633,4 +633,46 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
       -webkit-transform: translateX(500px) translateY(-300px) rotateZ(-180deg);
     }
   }
+  .ending-page-texto{
+    color: #fff;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 300px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 1em;
+    animation-name: textoEnding;
+    animation-duration: 8s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-fill-mode: both;
+  }
+
+  .bus-ending {
+    margin-top: 100px;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 1em;
+    animation-name: busEnding;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+  }
+  .ending-nombres-descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 140px;
+    font-size: xx-large;
+    animation-name: nombresDescripcionEnding;
+    animation-duration: 6s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-fill-mode: both;
+    animation-delay: 2s;
+  }
+
+  @-webkit-keyframes busEnding {
+    from { transform: translateX(-70vh);}
+    to { transform: translateX(130vh);}
+  }
+  
 }

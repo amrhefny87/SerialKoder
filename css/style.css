@@ -295,9 +295,7 @@ position: absolute;
     margin-right: 30vh;
 }
 
-.animacion-choque {
 
-}
 
 @media (min-device-width: 800px) {
 
@@ -441,7 +439,18 @@ position: absolute;
     }
 
     
-
+    .ending-page{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100vh;
+        width: 100%;
+        justify-items: center;
+        text-align: center;
+        color: white;
+        font-family: 'Amatic SC', cursive;
+        z-index: 1;
+    }
     
 
 }
