@@ -62,6 +62,7 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 ## Licencias Utilizadas 🛠️
 
 * "./img/busLandingPageTransp.png" imagen de autobús enojado conseguido en:'https://webstockreview.net'
+* "./img/bloodTransparent.png" <a href="https://www.freeiconspng.com/img/37991">bloody transparent</a>
 
 
 
