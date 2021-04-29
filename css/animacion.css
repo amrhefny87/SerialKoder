@@ -38,6 +38,9 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
    from{transform : translate(1200px,0);
 } 
 }
+
+
+
 @keyframes morir{
     from{transform : translate(95px,0);} 
  }
@@ -440,7 +443,6 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   margin-top: 7px;
   font-family: 'Amatic SC', cursive;
   font-size: 25px;
-  width: 158px;
   height: 63px;
   left: calc(50% - 158px/2 + 0.5px);
   top: calc(50% - 63px/2 + 194.5px);
@@ -464,7 +466,7 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
   1% {
       display: block;
-      opacity: 0;
+      opacity:0 ;
   }
 
   25% {
@@ -481,5 +483,225 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 
+@media (min-device-width: 800px) {
+  .splash{
+    position: absolute;
+    width: 100%;
+    margin-left: -500px;
+    margin-top: -500px;
+    z-index: 1;
 
+  -webkit-animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
+  }
+
+  @keyframes matar{ 
+  from{transform : translate(2000px,0);}
+  
+  }
+
+  .splash-salida{
+  
+    -webkit-animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+
+  .brazo-izquierdo-accion {
+    animation-name: brazoIzquierdoCorta;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin:top;
+    transform-box: fill-box;
+  }
+
+  .brazo-derecho-accion {
+    animation-name: brazoDerechoCorta;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin:top;
+    transform-box: fill-box;
+  }
+
+  .piernas-accion {
+    animation-name: piernasCorta;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin:top;
+    transform-box: fill-box;
+  }
+
+  .torso-accion {
+    animation-name: torsoCorta;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin:top;
+    transform-box: fill-box;
+  }
+
+  @-webkit-keyframes brazoIzquierdoCorta {
+    0% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    50% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: translateX(500px) translateY(-300px) rotateZ(-180deg);
+    }
+  }
+
+  @-webkit-keyframes brazoDerechoCorta {
+    0% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    50% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: translateX(200px) translateY(-500px) rotateZ(-220deg);
+    }
+  }
+
+  @-webkit-keyframes piernasCorta {
+    0% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    50% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: translateX(600px) translateY(100px) rotateZ(90deg);
+    }
+  }
+
+  @-webkit-keyframes torsoCorta {
+    0% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    50% {
+      -webkit-transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: translateX(600px) translateY(0px) rotateZ(90deg);
+    }
+  }
+
+  .cabeza-todo {
+    animation-name: cabezaPop;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @-webkit-keyframes cabezaPop {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0deg) translateY(0) translateX(0);
+    }
+    
+    5% {
+      
+      -webkit-transform: scale(3) rotateZ(0deg) translateY(0) translateX(0);
+    }
+    33% {
+      
+      -webkit-transform: scale(3) rotateZ(0deg) translateY(0) translateX(0);
+    }
+    40% {
+      
+      -webkit-transform: scale(1) rotateZ(0deg) translateY(0) translateX(0);
+    }
+
+    50% {
+      -webkit-transform: scale(1) rotateZ(0deg) translateY(0) translateX(0);
+    }
+
+    100% {
+      
+      -webkit-transform: translateX(500px) translateY(-300px) rotateZ(-180deg);
+    }
+  }
+  .ending-page-texto{
+    color: #fff;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 300px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 1em;
+    animation-name: textoEnding;
+    animation-duration: 8s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-fill-mode: both;
+  }
+
+  .bus-ending {
+    margin-top: 100px;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 1em;
+    animation-name: busEnding;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+  }
+  .ending-nombres-descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 140px;
+    font-size: xx-large;
+    animation-name: nombresDescripcionEnding;
+    animation-duration: 6s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-fill-mode: both;
+    animation-delay: 2s;
+  }
+
+  @-webkit-keyframes busEnding {
+    from { transform: translateX(-70vh);}
+    to { transform: translateX(130vh);}
+  }
+  
+  .button-start-killing-again {
+    width: 250px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    height: 110px;
+    left: calc(50% - 158px/2 + 0.5px);
+    top: calc(50% - 63px/2 + 194.5px);
+    background: #BF8C4D;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 26px;
+    animation-name: endingPagina2;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-fill-mode: both;
+    animation-delay: 4s;
+    margin-top: 100px;
+  }
+  .article-solo-ending-page {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    animation-name: endingPagina2;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation-fill-mode: both;
+  
+  }
+}
