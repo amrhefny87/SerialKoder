@@ -1,5 +1,7 @@
 # SERIAL KODER
 
+⚠️Esta pagina contiene escenas que pueden resultar perturbadoras para algunos espectadores.⚠️
+
 Debemos diseñar y maquetar una Wheel of Doom.
 
 La temática es libre. Ser creativos.
@@ -19,22 +21,26 @@ https://andresestebanpatino.github.io/wheelOfDoom/
 
 Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:
 
-![Alt text](/img/README.md/Mockup_bookWorm.png?raw=true "Optional Title")
+![Alt text](/img/README.md/mockupReadMe.png?raw=true "Optional Title")
 
 
 
 ## Capturas Pantallas formato Móvil ⚙️
 
-![Alt text](/img/README.md/landingPage.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/catalogo.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/descripcionLibro.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/landingPageReadMe.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/Main1ReadMe.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/Main2ReadMe.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/endingPage1ReadMe.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/endingPage2ReadMe.JPG?raw=true "Optional Title")
 
 
 ## Capturas Pantallas formato Ipad ⚙️
 
-![Alt text](/img/README.md/landingPage.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/catalogo.JPG?raw=true "Optional Title")
-![Alt text](/img/README.md/descripcionLibro.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/landingPageReadMe.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/Main1ReadMe.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/Main2ReadMe.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/endingPage1ReadMe.JPG?raw=true "Optional Title")
+![Alt text](/img/README.md/endingPage2ReadMe.JPG?raw=true "Optional Title")
 
 
 
