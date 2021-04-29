@@ -56,8 +56,7 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 ## Licencias Utilizadas 🛠️
 
 * "./img/busLandingPageTransp.png" imagen de autobús enojado conseguido en:'https://webstockreview.net'
-* yyyyyy
-* zzzzzz
+
 
 
 ## Autores ✒️
