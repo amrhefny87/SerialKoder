@@ -488,8 +488,8 @@ animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   .splash{
     position: absolute;
     width: 100%;
-    margin-left: -500px;
-    margin-top: -500px;
+    margin-left: -250px;
+    margin-top: -200px;
     z-index: 1;
 
   -webkit-animation: scale-up-center 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
