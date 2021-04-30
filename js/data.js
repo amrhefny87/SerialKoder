@@ -1,13 +1,13 @@
 export const listaNombres = [
     {
         nombre: "Andrés Patiño"
-    }/*,
+    },
     {
         nombre: "Andrea Cevallos"
     },
     {
         nombre: "Jose Miguel Quesada"
-    },
+    }/*,
     {
         nombre: "Amr Hefny"
     },
