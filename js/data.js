@@ -1,5 +1,20 @@
 export const listaNombres = [
     {
+        nombre: "Sergio Corcuera"
+    },
+    {
+        nombre: "Alexandra Galarza"
+    },
+    {
+        nombre: "Berta López"
+    },
+    {
+        nombre: "Joan Recordà"
+    },
+    {
+        nombre: "Gabriela Piñeiro"
+    }/*,
+    {
         nombre: "Andrés Patiño"
     },
     {
@@ -7,19 +22,14 @@ export const listaNombres = [
     },
     {
         nombre: "Jose Miguel Quesada"
-    }/*,
+    },
     {
         nombre: "Amr Hefny"
     },
     {
         nombre: "Jael Masllorens"
     },
-    {
-        nombre: "Sergio Corcuera"
-    },
-    {
-        nombre: "Alexandra Galarza"
-    },
+    
     {
         nombre: "David Sánchez"
     },
@@ -38,9 +48,7 @@ export const listaNombres = [
     {
         nombre: "Thierno Sadialiou"
     },
-    {
-        nombre: "Berta López"
-    },
+    
     {
         nombre: "Gabriela Baquerizo"
     },
@@ -59,12 +67,8 @@ export const listaNombres = [
     {
         nombre: "Martín Madridejos"
     },
-    {
-        nombre: "Gabriela Piñeiro"
-    },
-    {
-        nombre: "Joan Recordà"
-    },
+    
+    
     {
         nombre: "David Hermoso"
     },
