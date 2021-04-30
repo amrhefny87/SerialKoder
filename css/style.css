@@ -38,6 +38,7 @@ height: 6vh;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
     background-color: #8C8080;
+    z-index: 1;
 }
 
 .btn-restart{
@@ -49,6 +50,7 @@ height: 6vh;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
     background-color: #8C8080;
+    z-index: 1;
 }
 
 .boton-siguiente{
@@ -149,6 +151,7 @@ position: absolute;
     height: auto;
     margin-left: 7vh;
     z-index: -1;
+    margin-top: -280px;
 }
 
 .main-ending{
@@ -547,5 +550,6 @@ position: absolute;
         text-align: center;
         color: #EFC590;
         font-family: 'Amatic SC', cursive;
+        z-index: 1;
     }
 }
